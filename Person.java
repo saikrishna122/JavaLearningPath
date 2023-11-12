@@ -12,6 +12,8 @@ public class Person {
 
         private String sex;
 
+        private int phoneNumber;
+
         public String getName() { return name; }
 
         public void setName(String name) { this.name = name; }
@@ -23,6 +25,17 @@ public class Person {
         public String getSex() {return sex; }
 
         public  void setSex (String sex) {this.sex = sex; }
+
+        public int getPhoneNumber()
+        {
+               return phoneNumber;
+        }
+
+        public void setPhoneNumber(int phoneNumber)
+        {
+               this.phoneNumber = phoneNumber;
+        }
+
     }
 
 
