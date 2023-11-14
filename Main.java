@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         // person object created
         Person person = new Person();
+        MountainBike mb =new MountainBike(3,100,25);
         person.setName("John");
         person.setAge(30);
         person.setSex("M");
@@ -15,5 +16,6 @@ public class Main {
         System.out.println("Age: " + person.getAge());
         System.out.println("Sex:" +person.getSex());
         System.out.println("Mobile Number :"+person.getPhoneNumber());
+        System.out.println(mb);
 }
 }
